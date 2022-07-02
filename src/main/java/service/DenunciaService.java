@@ -4,7 +4,6 @@ import lombok.RequiredArgsConstructor;
 import model.Denuncia;
 import org.springframework.stereotype.Service;
 import repository.DenunciaRepository;
-import repository.UsuarioRepository;
 
 import java.util.List;
 import java.util.Optional;

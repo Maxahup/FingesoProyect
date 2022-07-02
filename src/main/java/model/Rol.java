@@ -4,14 +4,10 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(value = "usuario")
+@Document(value = "rol")
 @Data
-public class Usuario {
+public class Rol {
     @Id
     private String id;
-    private String nombre;
-    private String rut;
-    private Rol rol;
-    private String correo;
-    private String password;
+    private String tipoRol;
 }
